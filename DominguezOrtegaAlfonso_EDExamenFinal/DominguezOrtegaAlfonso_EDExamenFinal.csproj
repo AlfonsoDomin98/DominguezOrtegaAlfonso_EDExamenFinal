@@ -43,7 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Interfaces\IPesable.cs" />
+    <Compile Include="Models\Animal.cs" />
+    <Compile Include="Models\ClinicaVeterinaria.cs" />
+    <Compile Include="Models\Gato.cs" />
+    <Compile Include="Models\Pajaro.cs" />
+    <Compile Include="Models\Perro.cs" />
+    <Compile Include="Main\Program.cs" />
+    <Compile Include="Models\Reptil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
