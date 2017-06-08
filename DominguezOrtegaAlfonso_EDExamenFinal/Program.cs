@@ -10,6 +10,7 @@ namespace DominguezOrtegaAlfonso_EDExamenFinal
     {
         static void Main(string[] args)
         {
+            
         }
     }
 }
