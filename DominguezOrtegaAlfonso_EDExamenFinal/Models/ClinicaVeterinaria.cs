@@ -24,7 +24,7 @@ namespace DominguezOrtegaAlfonso_EDExamenFinal.Models
             int opcion = MenuPeso();
             if (opcion <= 0 || opcion > 4)
             {
-                throw new Exception("[ERROR] No ha introducido un valor correcto");
+                throw new Exception("[ERROR]: No ha introducido un valor correcto");
                 
             }
             string aux;
